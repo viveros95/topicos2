@@ -109,12 +109,13 @@ public class Formulario extends Application {
         grid.add(btnClean,18, 40);
         
         
-        //creacion de la ecena y agregacion de los componentes a ecena
+       //creacion de la ecena y agregacion de los componentes a ecena
         Scene scene = new Scene(grid, 400, 350);
         //titulo del cuandro de la ecena
         primaryStage.setTitle("Esto es un cuadro!");
         //mandando la ecena
         primaryStage.setScene(scene);
+        
         //mostrar la ecena en pantalla
         primaryStage.show();
     }
